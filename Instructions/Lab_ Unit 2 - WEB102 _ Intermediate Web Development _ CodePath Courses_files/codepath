@@ -1,0 +1,322 @@
+/*
+Default Theme
+Alert box colors: info - #E9F6FF, danger - #FFEDF0, warning - #FCF8E3, success - #D7FEEE
+Sidebar links and nav-pill: #1B1C57
+Module nav-tabs and panel border: #00C385
+Navbar: #f5f5f5
+Code snippet: #f8f8f8
+Dropdown: #f5f5f5
+Links: #4F5DFF
+*/
+
+
+
+/***************/
+/* Square Logo */
+/***************/
+
+.square-logo {
+  background-image: url(https://i.imgur.com/QKbfRZI.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
+
+
+/**********/
+/* Navbar */
+/**********/
+
+.navbar {
+  background-color: #f5f5f5
+}
+
+.navbar-default {
+  background-image: none;
+  background-image: none;
+  background-repeat: none;
+  border-radius: none;
+  webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+  color: #000;
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-brand, .navbar-nav>li>a {
+  text-shadow: none;
+  color: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: #000;
+}
+
+.navbar-default span.glyphicon {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+
+/************************/
+/* Navbar dropdown menu */
+/************************/
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+  background-color: #1B1C57;
+  background-image: none;
+  filter: none;
+  background-repeat: none;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a {
+  color: #000;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #000;
+}
+
+
+/***************/
+/* Alert boxes */
+/***************/
+
+.alert-info {
+  background-color: #E9F6FF;
+  color: #000;
+  border: 0;
+  background-image: none;
+}
+
+.alert-danger {
+  background-color: #FFEDF0;
+  color: #000;
+  border: 0;
+  background-image: none;
+}
+
+.alert-warning {
+  background-color: #FCF8E3;
+  color: #000;
+  border: 0;
+  background-image: none;
+}
+
+.alert-success {
+  background-color: #D7FFEE;
+  color: #000;
+  border: 0;
+  background-image: none;
+}
+
+.alert-info .alert-link {
+  color: #4F5DFF;
+}
+
+.alert-ai {
+  background-color: #80008033;
+  color: #000;
+  border: 0;
+  background-image: none;
+}
+
+
+/**********************/
+/* Nav pills and tabs */
+/**********************/
+
+.nav-pills {
+  color: #FFF;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs > li > a {
+  color: #1B1C57;
+}
+
+.nav-tabs > li > a:hover {
+  color: #1B1C57;
+  border-bottom: 1px solid #00C385;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top: 3px solid #f5f5f5;
+  background-color: #f5f5f5
+
+}
+
+.sidebar > .nav >li > a,
+.sidebar > .nav >li summary,
+.sidebar > .nav > li details a {
+  color: #1B1C57;
+}
+
+.sidebar > .nav > li.active > a {
+  color: #FFF;
+  background-color: #1B1C57;
+
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:visited
+{
+  color: #fff;
+  background-color: #1b1c57;
+}
+
+.sidebar>.nav-pills li.active span.glyphicon{
+  color: #fff;
+}
+
+.sidebar>.nav-pills>li.active>a,
+.sidebar>.nav-pills>li.active>a:focus,
+.sidebar>.nav-pills>li.active>a:hover,
+.sidebar>.nav-pills>li.active>a:visited
+{
+  color: #FFF;
+  background-color: #1b1c57;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-top: 3px solid #00C385;
+  border-left: 1px solid #00C385;
+  border-right: 1px solid #00C385;
+  border-bottom: 1px solid #00C385;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+span.glyphicon {
+  color: #1B1C57;
+}
+
+/*********/
+/* Fonts */
+/*********/
+
+.title .course-label h1,
+.h1, .h2, h1, h2 {
+  font-family: 'Space Mono', monospace;
+}
+
+.h3, .h4, .h5, .h6,
+h3, h4, h5, h6
+.nav>li>a,
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/****************/
+/* Content panel*/
+/****************/
+
+.panel-default {
+  border-color: #00C385;
+  border-radius: 0px;
+}
+
+a, a:visited {
+  color: #4F5DFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4F5DFF
+}
+
+
+/********************/
+/* Content Dropdown */
+/********************/
+
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  background-image: none;
+  background-repeat: none;
+  box-shadow: none;
+}
+
+.btn-info:hover{
+  background-color: #1B1C57;
+}
+
+.btn-danger,
+.btn-default,
+.btn-info,
+.btn-primary,
+.btn-success,
+.btn-warning {
+  text-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #4F5DFF;
+  border: none;
+  background-image: none;
+  background-repeat: none;
+}
+
+.panel-body .btn-info a {
+  background-color: #4F5DFF;
+}
+
+.panel-body .btn-info span.glyphicon{
+  color: #fff;
+}
+
+
+/**********************/
+/* Formatted code box */
+/**********************/
+
+pre {
+  background-color: #f8f8f8;
+  background-image: none;
+}
+
+.section-content code {
+  color: #1B1C57;
+}
+
+
+/********/
+/* Body */
+/********/
+
+body {
+  color: #000
+}
+
